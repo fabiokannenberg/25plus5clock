@@ -1,0 +1,95 @@
+body {
+  font-family: 'Open Sans';
+  font-size: 25px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  color: beige;
+  text-shadow: 1px 1px black;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+}
+
+#container {
+  display: flex;
+}
+
+#wrapper {
+  background-color: rgba(0, 0, 0, 0.82);
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+#timer-label {
+  padding-bottom: 40px;
+}
+
+#time-left {
+  font-family: 'Courier Prime';
+  padding: 25px 25px 0 25px;
+  font-size: 60px;
+}
+
+.timer {
+  font-size: 55px;
+  padding-bottom: 40px;
+}
+
+.timer-control {
+  font-size: 15px;
+}
+
+.timer-control button {
+  all: unset;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button-level {
+  all: unset;
+  font-size: 23px;
+}
+
+button:hover {
+  color: white;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.length-control {
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  display: grid;
+  width: 250px;
+  padding: 10px;
+  grid-template-areas:
+    "a a a a a a a"
+    ". . b c d . ."
+}
+
+/* positioning */
+
+#break-label, #session-label{
+  grid-area: a;
+}
+#break-decrement, #session-decrement {
+  grid-area: b;
+}
+#break-length, #session-length{
+  grid-area: c;
+}
+#break-increment, #session-increment {
+  grid-area: d;
+}
