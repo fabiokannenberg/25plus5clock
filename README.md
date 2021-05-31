@@ -1,4 +1,4 @@
-# react-calculator
+# 25plus5clock
 
 esse é um [projeto sugerido](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock) pela [freeCodeCamp](https://www.freecodecamp.org/) para a obtenção da certificação de Front End Libraries.
 
