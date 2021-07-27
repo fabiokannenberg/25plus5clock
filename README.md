@@ -8,6 +8,6 @@ dentre os 5 projetos realizados para receber a certificação, este foi o mais d
 
 o desafio real foi pensar em como construir o contador de maneira que não houvesse alguma dessincronização ao longo da contagem regressiva do relógio.
 
-# clique [aqui](https://codepen.io/fabiokannenberg/full/LYboQaM) para ver o app em funcionamento.
+# clique [aqui](https://codepen.io/fabiokannenberg/full/LYboQaM) para ver o app em funcionamento
 
 ![calculadora](0.png)
